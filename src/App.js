@@ -183,8 +183,8 @@ function App() {
         handleClose={handleClose}
         error={error}
       />
-      <Box margin={10}>
-        <Card style={{ padding: "20px" }}>
+      <Box margin="1rem">
+        <Card style={{padding:"1rem", marginTop: "1rem"}}>
           <div className="search-bar">
             <SearchBar
               handleOnChangeLocationText={(e) => handleOnChangeLocationText(e)}
